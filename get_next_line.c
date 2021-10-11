@@ -6,7 +6,7 @@
 /*   By: akliek <akliek@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 15:27:55 by akliek            #+#    #+#             */
-/*   Updated: 2021/07/10 17:58:12 by akliek           ###   ########.fr       */
+/*   Updated: 2021/10/11 11:33:08 by akliek           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ int	get_next_line(int fd, char **line)
 	rd = read(fd, buff, BUFFER_SIZE);
 	while (rd > 0)
 	{
-		
+		buff[BUFFER_SIZE] = '\0';
 		if (!str[fd])
 			str[fd] = ft_strdup("");
 		tmp = ft_strjoin(str[fd], buff);
