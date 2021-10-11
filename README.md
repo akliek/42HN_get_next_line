@@ -10,6 +10,8 @@ but it will also allow you to learn a highly interesting new concept in C progra
 
 Links:
 
+Wikipedia about static variables: https://en.wikipedia.org/wiki/Static_variable
+
 Subject PDF: https://github.com/akliek/42HN_get_next_line/blob/master/en.subject.pdf
 
 # Clone
